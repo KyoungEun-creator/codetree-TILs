@@ -8,9 +8,8 @@ int main() {
 
     temp = a;
     a = c;
-    temp2 = b;
+    c = b;
     b = temp;
-    c = temp2;
 
     cout << a << endl << b << endl << c;
 

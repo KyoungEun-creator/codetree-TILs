@@ -6,12 +6,7 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
+    cout << b << " " << a;
 
-    cout << a << " " << b;
-    
     return 0;
 }

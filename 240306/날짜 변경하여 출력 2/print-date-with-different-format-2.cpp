@@ -3,11 +3,11 @@ using namespace std;
 
 int main() {
 
-    int a, b, c;
-    char d;
+    int m, d, y;
+    char e;
 
-    cin >> a >> d >> b >> d >> c;
-    cout << c << "." << a << "." << b;
+    cin >> m >> e >> d >> e >> y;
+    cout << y << "." << m << "." << d;
 
     return 0;
 }

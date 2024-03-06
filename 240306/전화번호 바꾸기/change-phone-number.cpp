@@ -5,11 +5,13 @@ using namespace std;
 int main() {
     
     int a, b, c;
-    char dash;
+    cin >> a;
+    cin.get();
+    cin >> b;
+    cin.get();
+    cin >> c;
 
-    cin >> a >> dash >> b >> dash >> c;
-
-    cout << "010" << "-" << c << "-" << b;
+    cout << "010-" << c << "-" << b;
 
     return 0;
 }

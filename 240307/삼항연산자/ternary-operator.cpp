@@ -1,15 +1,12 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main() {
 
-    int test;
-    string result;
-    cin >> test;
+    int score;
+    cin >> score;
 
-    result = test == 100 ? "pass" : "failure";
-    cout << result;
+    cout << ((score == 100) ? "pass" : "failure");
 
     return 0;
 }

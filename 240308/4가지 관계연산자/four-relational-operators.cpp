@@ -19,8 +19,8 @@ int main() {
     else 
         cout << 0 << endl;
     if (b >= a)
-        cout << 1 << endl;
+        cout << 1;
     else 
-        cout << 0 << endl;
+        cout << 0;
     return 0;
 }

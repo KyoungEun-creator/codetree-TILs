@@ -10,17 +10,16 @@ int main() {
         cout << 1 << endl;
     else 
         cout << 0 << endl;
-    if (a > b)
+    if (a > b) 
         cout << 1 << endl;
     else 
         cout << 0 << endl;
-    if (b >= a)
+    if (b >= a) 
         cout << 1 << endl;
     else 
         cout << 0 << endl;
-    if (b >= a)
+    if (b > a) 
         cout << 1;
     else 
         cout << 0;
-    return 0;
 }

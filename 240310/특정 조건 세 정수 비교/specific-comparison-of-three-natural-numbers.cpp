@@ -14,7 +14,7 @@ int main() {
     else if (c < a && c < b)
         min = c;
 
-    if (min == a)
+    if (a == min)
         cout << 1 << " ";
     else 
         cout << 0 << " ";

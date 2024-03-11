@@ -10,8 +10,8 @@ int main() {
     cin >> b_sym >> b_tem;
     cin >> c_sym >> c_tem;
 
-    if ((a_sym == "Y" && b_sym == "Y") || (a_sym == "Y" && c_sym == "Y") || (b_sym == "Y" && c_sym == "Y") || (a_sym == "Y" && b_sym == "Y" && c_sym == "Y")) {
-        if ((a_tem >= 37 && b_tem >= 37) || (a_tem >= 37 && c_tem >= 37) || (b_tem >= 37 && c_tem >= 37) || (a_tem >= 37 && b_tem >= 37 && c_tem >= 37)) {
+    if (a_sym == "Y" && a_tem >= 37) {
+        if ((b_sym == "Y" && b_tem >= 37) || (c_sym == "Y" && c_tem >= 37)) {
             cout << "E";
         }
         else {
@@ -19,7 +19,12 @@ int main() {
         }
     }
     else {
-        cout << "N";
+        if ((b_sym == "Y" && b_tem >= 37) && (c_sym == "Y" && c_tem >= 37)) {
+            cout << "E";
+        }
+        else {
+            cout << "N";
+        }
     }
     return 0;
 }

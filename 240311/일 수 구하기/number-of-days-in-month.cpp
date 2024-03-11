@@ -19,10 +19,10 @@ int main() {
     }
     else {
         if (n % 2 == 0) {
-            cout << 30;
+            cout << 31;
         }
         else {
-            cout << 31;
+            cout << 30;
         }
     }
     return 0;

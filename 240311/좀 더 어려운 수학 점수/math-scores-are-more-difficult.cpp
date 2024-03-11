@@ -8,13 +8,10 @@ int main() {
     int bm, be;
     cin >> bm >> be;
 
-    if (am > bm)
+    if (am > bm || (am == bm && ae > be))
         cout << "A";
-    else if (am < bm)
+    else
         cout << "B";
-    else if (am == bm && ae > be)
-        cout << "A";
-    else if (am == bm && ae < be)
-        cout << "B";
+
     return 0;
 }

@@ -9,11 +9,21 @@ int main() {
     if (n == 2) {
         cout << 28;
     }
-    else if (n == 1 || n == 3 || n == 5 || n == 7 || n == 8 || n == 10 || n == 12) {
-        cout << 31;
+    else if (n <= 7) {
+        if (n % 2 == 1) {
+            cout << 31;
+        }
+        else {
+            cout << 30;
+        }
     }
     else {
-        cout << 30;
+        if (n % 2 == 0) {
+            cout << 30;
+        }
+        else {
+            cout << 31;
+        }
     }
     return 0;
 }

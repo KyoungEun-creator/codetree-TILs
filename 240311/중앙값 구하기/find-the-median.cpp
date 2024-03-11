@@ -6,11 +6,11 @@ int main() {
     int a, b, c;
     cin >> a >> b >> c;
 
-    if (a >= b) {
-        if (b >= c) {
+    if (a > b) {
+        if (b > c) {
             cout << b;
         }
-        else if (a >= c) {
+        else if (a > c) {
             cout << c;
         }
         else {
@@ -18,14 +18,14 @@ int main() {
         }
     }
     else {
-        if (a >= c) {
+        if (a > c) {
             cout << a;
         }
-        else if (b >= c) {
-            cout << b;
+        else if (b > c) {
+            cout << c;
         }
         else {
-            cout << c;
+            cout << b;
         }
     }
     return 0;

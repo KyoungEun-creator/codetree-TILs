@@ -3,15 +3,12 @@ using namespace std;
 
 int main() {
 
-    int n;
+    int n, i = 1;
     cin >> n;
 
-    int a;
-    a = 1;
-
-    while (a <= n) {
-        cout << a << " ";
-        a++;
+    while (i <= n) {
+        cout << i << " ";
+        i++;
     }
     return 0;
 }

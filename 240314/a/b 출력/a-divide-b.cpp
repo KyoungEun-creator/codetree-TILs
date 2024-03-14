@@ -9,8 +9,8 @@ int main() {
     cout << a / b << ".";
 
     for (int i = 0; i < 20; i++) {
-        cout << (a * 10) / b;
-        a = (a * 10) % b;
+        cout << ((a % b) * 10) / b;
+        a = ((a % b) * 10);
     }
 
     return 0;

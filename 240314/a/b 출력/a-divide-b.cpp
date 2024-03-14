@@ -18,7 +18,7 @@ int main() {
         a *= 10;
         cout << a / b;
 
-        a %= 10;
+        a %= b;
     }
     return 0;
 }

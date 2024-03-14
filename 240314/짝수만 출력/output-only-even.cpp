@@ -4,12 +4,14 @@ using namespace std;
 int main() {
 
     int a, b;
+    int i;
 
     cin >> a >> b;
+    i = a;
 
-    while (a <= b) {
-        cout << a << " ";
-        a += 2;
+    while (i <= b) {
+        cout << i << " ";
+        i += 2;
     }
     return 0;
 }

@@ -6,13 +6,9 @@ int main() {
     int a, n;
     cin >> a >> n;
 
-    int i = 0; 
-    int b = a + n;
-
-    while (i < n) {
-        cout << b << endl;
-        b += n;
-        i += 1;
+    for (int i = 0; i <= n; i++) {
+        a += n;
+        cout << a << endl;
     }
     return 0;
 }

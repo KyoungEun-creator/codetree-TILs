@@ -3,13 +3,10 @@ using namespace std;
 
 int main() {
 
-    int cnt3, cnt5;
-    cnt3 = 0;
-    cnt5 = 0;
+    int n, cnt3 = 0, cnt5 = 0;
 
     for (int i = 1; i <= 10; i++) {
 
-        int n;
         cin >> n;
 
         if (n % 3 == 0) {

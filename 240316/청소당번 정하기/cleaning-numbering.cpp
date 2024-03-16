@@ -3,22 +3,24 @@ using namespace std;
 
 int main() {
 
-    int n, room_cnt = 0, hall_cnt = 0, bathroom_cnt = 0;
+    int n;
     cin >> n;
+
+    int cnt2 = 0, cnt3 = 0, cnt12 = 0;
 
     for (int i = 1; i <= n; i++) {
         
         if (i % 12 == 0) {
-            bathroom_cnt++;
+            cnt12++;
         }
         else if (i % 3 == 0) {
-            hall_cnt++;
+            cnt3++;
         }
         else if (i % 2 == 0) {
-            room_cnt++;
+            cnt2++;
         }
     }
 
-    cout << room_cnt << " " << hall_cnt << " " << bathroom_cnt;
+    cout << cnt2 << " " << cnt3 << " " << cnt12;
     return 0;
 }

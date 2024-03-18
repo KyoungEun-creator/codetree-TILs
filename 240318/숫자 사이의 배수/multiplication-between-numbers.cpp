@@ -14,9 +14,11 @@ int main() {
         }
     }
 
-    ave_val = double(sum_val) / cnt;
+    ave_val = (double)sum_val / cnt;
+
     cout << fixed;
     cout.precision(1);
+    
     cout << sum_val << " " << ave_val;
     return 0;
 }

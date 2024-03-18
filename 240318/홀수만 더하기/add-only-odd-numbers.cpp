@@ -6,7 +6,7 @@ int main() {
     int n, sum_val = 0;
     cin >> n;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i <= n; i++) {
 
         int a;
         cin >> a;

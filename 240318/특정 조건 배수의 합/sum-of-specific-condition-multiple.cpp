@@ -7,12 +7,18 @@ int main() {
     int sum_val = 0;
     cin >> a >> b;
 
-    int start = min(a, b);
-    int end = max(a, b);
-
-    for (int i = start; i <= end; i++) {
-        if (i % 5 == 0) {
-            sum_val += i;
+    if (a <= b) {
+        for (int i = a; i <= b; i++) {
+            if (i % 5 == 0) {
+                sum_val += i;
+            }
+        }
+    }
+    else {
+        for (int i = b; i <= a; i++) {
+            if (i % 5 == 0) {
+                sum_val += 1;
+            }
         }
     }
 

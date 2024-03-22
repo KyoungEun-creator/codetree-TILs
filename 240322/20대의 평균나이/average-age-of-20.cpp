@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int prod = 0, cnt = 0;
+    int sum = 0, cnt = 0;
     double ave_val;
 
     while(true) {

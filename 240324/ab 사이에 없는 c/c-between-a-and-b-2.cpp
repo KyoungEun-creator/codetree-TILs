@@ -6,10 +6,10 @@ int main() {
     int a, b, c;
     cin >> a >> b >> c;
 
-    bool satisfied = false;
+    bool satisfied = true;
     for (int i = a; i <= b; i++) {
-        if (i % c != 0) {   //없음
-            satisfied = true;
+        if (i % c == 0) {   //있음
+            satisfied = false;
         }
     }
     if (satisfied == true) {

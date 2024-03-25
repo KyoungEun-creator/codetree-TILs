@@ -10,15 +10,19 @@ int main() {
         for (int j = 0; j <= i; j++) {
             cout << "*";
         }
-        cout << endl;
-        cout << endl;
+        cout << "\n\n";
     }
-    for (int i = 1; i < n; i++) {
-        for (int j = n - i; j > 0; j--) {
+    // for (int i = 1; i < n; i++) {
+    //     for (int j = n - i; j > 0; j--) {
+    //         cout << "*";
+    //     }
+    //     cout << "\n\n";
+    // }
+    for (int i = n - 2; i >= 0; i--) {
+        for (int j = 0; j <= i; j++) {
             cout << "*";
         }
-        cout << endl;
-        cout << endl;
+        cout << "\n\n";
     }
     return 0;
 }

@@ -8,8 +8,7 @@ int main() {
 
     for (int i = 0; i < 6; i++) {
         if (i % 2 == 0) {
-            cout << "*";
-            
+            cout << "*"; 
         }
         else {
             for (int j = 0; j < i + 1; j++) {
